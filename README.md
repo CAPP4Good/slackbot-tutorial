@@ -28,6 +28,12 @@ We'll cover all the basic steps you'll need to have a fully functioning app that
 ### Credits (Option 1)
 This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory at the Icahn School of Medicine at Mount Sinai.
 
+## Option 1.5
+Rather than using Flask, try Bolt. 
+
+You can learn more about Bolt in either Javascript or Python here: [https://docs.slack.dev/quickstart/](https://docs.slack.dev/quickstart/)
+
+
 ## Option 2: Javascript 
 **Pros**:
 - lots of Slack bots are built on Javascript
@@ -43,6 +49,8 @@ This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory a
 
 [https://dev.to/isaksolheim/creating-a-slackbot-with-javascript-bolt-1kp7
 ](https://dev.to/isaksolheim/creating-a-slackbot-with-javascript-bolt-1kp7)
+
+**Video**: [https://www.youtube.com/watch?v=QBRHcGGTRCY](https://www.youtube.com/watch?v=QBRHcGGTRCY)
 
 ## Option 3: JavaScript & Github Actions
 **Pros**:
