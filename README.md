@@ -1,11 +1,16 @@
 # :sparkles: How to Build a Slack App!
-This is a simple tutorial on how to program a slack app using **Python** and **Flask**.
+This is a simple tutorial on how to program a slack app using **Python** and **Flask**. Forked from [here](https://github.com/MaayanLab/slackbot-tutorial?tab=readme-ov-file) and is largely the same. 
 
 This serves as a walkthrough guide and example of the types of Slack apps you can build with Slack's Python SDK, [**python-slackclient**](https://github.com/slackapi/python-slackclient), and [**Slack Events Adapter**](https://github.com/slackapi/python-slack-events-api), which facilitates the handling of data from the Slack Events API in Python. 
 
+**C4G: In order to do this project, you will need to create your own Slack Workspace — one outside of CAPP**
+We recommend [creating one as a group](https://slack.com/help/articles/206845317-Create-a-Slack-workspace#create-a-workspace) and give everyone. Slack's default is to give everyone permission to add an [outside app](https://slack.com/help/articles/1500009181142-Manage-app-settings-and-permissions). 
+
 We'll cover all the basic steps you'll need to have a fully functioning app that can listen and respond to events in slack, handle slash commands, and so much more!
 - First, we will cover the basics about how to handle **events** and create **slash commands**. :desktop_computer: :speech_balloon:
-- Then, using all that we learn, we will create a **[COVID-19 slack application](5-covid-bot.md)**! :dna: :robot:
+- The forked repo includes a tutorial on how to create a COVID-Bot. Libby anticipates this is out of date, so she recommends:
+  - Advanced: [Weather Slack Bot](https://github.com/jkeefe/weather-newsrooms-nicar25/tree/main) (Github Actions & Weather Slack Bot)
+    - Specific Slack Bot instructions are in the [warnings-slack.js](https://github.com/jkeefe/weather-newsrooms-nicar25/blob/main/warnings-slack.js)
 
 ## Table of Contents
 - **[1. Creating the Slack App](1-create-slack-app.md)**
