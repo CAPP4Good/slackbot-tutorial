@@ -3,6 +3,7 @@
 **Pros**: 
 - Lots of documentation through this repo
 - Relies on Python — which we already know!
+
 **Cons**:
 - Example app is based on a COVID API that may not be helpful
 
@@ -30,9 +31,9 @@ This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory a
 ## Option 2: Javascript 
 **Pros**:
 - lots of Slack bots are built on Javascript
+
 **Cons**:
 - no internal documentation (pointing you to some websites that should be helpful, but nothing specific)
-- 
 
 [https://medium.com/codex/building-a-slack-bot-using-node-js-part-1-7b3e7d54e9b6
 ](https://medium.com/codex/building-a-slack-bot-using-node-js-part-1-7b3e7d54e9b6)
@@ -47,6 +48,7 @@ This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory a
 **Pros**:
 - A useful app!
 - Learning Github Actions too
+
 **Cons**:
 - tutorial is more Github Actions focussed and not necessarily Slack bot focussed 
 
