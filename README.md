@@ -1,4 +1,16 @@
 # :sparkles: How to Build a Slack App!
+
+**C4G: In order to do this project, you will need to create your own Slack Workspace — one outside of CAPP**
+We recommend [creating one as a group](https://slack.com/help/articles/206845317-Create-a-Slack-workspace#create-a-workspace) and give everyone. Slack's default is to give everyone permission to add an [outside app](https://slack.com/help/articles/1500009181142-Manage-app-settings-and-permissions). 
+
+You can walk through one or more of the tutorials below and create all the bots you want. In Libby's mind, you will do the following: 
+1) Start with option 1 and work through steps 1-4. Skim step 5. 
+2) Figure out how to adapt option 1 to run on Bolt
+3) Proceed to option 2 and learn javascript
+4) If time -- move to option 3
+
+Good luck and happy coding! 
+
 ## Option 1: Python & Flask 
 **Pros**: 
 - Lots of documentation through this repo
@@ -8,9 +20,6 @@
 - Example app is based on a COVID API that may not be helpful
 
 This repo is largely based on option 1 since we are more familar with Python and should offer a good starting point. This repo walks through how to program a slack app using **Python** and **Flask**. Specifically, it demonstrates the types of Slack apps you can build with Slack's Python SDK, [**python-slackclient**](https://github.com/slackapi/python-slackclient), and [**Slack Events Adapter**](https://github.com/slackapi/python-slack-events-api), which facilitates the handling of data from the Slack Events API in Python. Forked from [here](https://github.com/MaayanLab/slackbot-tutorial?tab=readme-ov-file).
-
-**C4G: In order to do this project, you will need to create your own Slack Workspace — one outside of CAPP**
-We recommend [creating one as a group](https://slack.com/help/articles/206845317-Create-a-Slack-workspace#create-a-workspace) and give everyone. Slack's default is to give everyone permission to add an [outside app](https://slack.com/help/articles/1500009181142-Manage-app-settings-and-permissions). 
 
 We'll cover all the basic steps you'll need to have a fully functioning app that can listen and respond to events in slack, handle slash commands, and so much more!
 - First, we will cover the basics about how to handle **events** and create **slash commands**. :desktop_computer: :speech_balloon:
@@ -32,7 +41,6 @@ This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory a
 Rather than using Flask, try Bolt. 
 
 You can learn more about Bolt in either Javascript or Python here: [https://docs.slack.dev/quickstart/](https://docs.slack.dev/quickstart/)
-
 
 ## Option 2: Javascript 
 **Pros**:
