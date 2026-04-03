@@ -12,12 +12,10 @@ You can walk through one or more of the tutorials below and create all the bots 
 Good luck and happy coding! 
 
 ## Option 1: Python & Flask 
-**Pros**: 
-- Lots of documentation through this repo
-- Relies on Python — which we already know!
-
-**Cons**:
-- Example app is based on a COVID API that may not be helpful
+**About this option** 
+- *Pro*: Lots of documentation through this repo
+- *Pro*: Relies on Python — which we already know!
+- *Con*: Example app is based on a COVID API that may not be helpful
 
 This repo is largely based on option 1 since we are more familar with Python and should offer a good starting point. This repo walks through how to program a slack app using **Python** and **Flask**. Specifically, it demonstrates the types of Slack apps you can build with Slack's Python SDK, [**python-slackclient**](https://github.com/slackapi/python-slackclient), and [**Slack Events Adapter**](https://github.com/slackapi/python-slack-events-api), which facilitates the handling of data from the Slack Events API in Python. Forked from [here](https://github.com/MaayanLab/slackbot-tutorial?tab=readme-ov-file).
 
@@ -43,11 +41,9 @@ Rather than using Flask, try Bolt.
 You can learn more about Bolt in either Javascript or Python here: [https://docs.slack.dev/quickstart/](https://docs.slack.dev/quickstart/)
 
 ## Option 2: Javascript 
-**Pros**:
-- lots of Slack bots are built on Javascript
-
-**Cons**:
-- no internal documentation (pointing you to some websites that should be helpful, but nothing specific)
+**About this option** 
+- *Pro*: lots of Slack bots are built on Javascript
+- *Con*: no internal documentation (pointing you to some websites that should be helpful, but nothing specific)
 
 [https://medium.com/codex/building-a-slack-bot-using-node-js-part-1-7b3e7d54e9b6
 ](https://medium.com/codex/building-a-slack-bot-using-node-js-part-1-7b3e7d54e9b6)
@@ -61,12 +57,10 @@ You can learn more about Bolt in either Javascript or Python here: [https://docs
 **Video**: [https://www.youtube.com/watch?v=QBRHcGGTRCY](https://www.youtube.com/watch?v=QBRHcGGTRCY)
 
 ## Option 3: JavaScript & Github Actions
-**Pros**:
-- A useful app!
-- Learning Github Actions too
-
-**Cons**:
-- tutorial is more Github Actions focussed and not necessarily Slack bot focussed 
+**About this option**:
+- _Pro_: A useful app!
+- _Pro_: Learning Github Actions too
+- _Con_: tutorial is more Github Actions focussed and not necessarily Slack bot focussed 
 
 [Weather Slack Bot](https://github.com/jkeefe/weather-newsrooms-nicar25/tree/main) (Github Actions & Weather Slack Bot)
 - Specific Slack Bot instructions are in the [warnings-slack.js](https://github.com/jkeefe/weather-newsrooms-nicar25/blob/main/warnings-slack.js)
