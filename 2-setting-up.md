@@ -10,13 +10,27 @@ The other piece of information that we will need is the **Slack Signing Secret**
 
 ## Creating Project Folder and Files
 In terminal, you can create a new project folder and set up your virtual environment. 
+
+**Libby note**: Here are two versions. The original tutorial's version is not uv based, and not as common practice. 
+
+### UV
+In your project directory, do the following
+
+```
+uv init
+uv add slackclient slackeventsapi Flask
+python -m venv env/
+source .venv/bin/activate
+```
+
+### Forked Repo's Way
+(Walks through making the directory first)
 ```
 $ mkdir Project_Name
 $ cd Project_Name
 $ python -m venv env/
 $ source env/bin/activate
 ```
-
 Next, open up your project in your code editor of choice! 
 
 Now, create a file 'requirements.txt'. Add the following lines of code:
@@ -34,10 +48,26 @@ $ pip3 install -r requirements.txt
 
 ## Start Programming the Bot
 ### Adding Tokens to Virtual Environment
-- Remember those tokens we copied before? Well now we need to add them to our virtua environment. You can do this in terminal by typing: 
+- Remember those tokens we copied before? Well now we need to add them to our virtual environment. You can do this in terminal by typing: 
+
+**Libby note: Technically a temporary solution and you'll do this every time yu start the app**
 ```
 $ export SLACK_BOT_TOKEN= ...
 $ export SLACK_SIGNING_SECRET= ... 
+```
+
+#### Permanent Solution
+Make a .env file in your root project directory
+Add your variables like so: 
+
+```
+echo "SLACK_BOT_TOKEN=secret_value" > .env
+echo "SLACK_SIGNING_SECRET=secret_value" > .env
+```
+Set it up so every time you do 'uv run' you don't have to pass the .env file
+
+```
+export UV_ENV_FILE=.env
 ```
 
 ### Create File: app.py
